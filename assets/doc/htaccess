@@ -1,0 +1,3 @@
+Options +Indexes 
+IndexOptions FancyIndexing
+DirectoryIndex ../../errors/403.html

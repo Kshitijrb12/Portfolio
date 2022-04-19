@@ -1,0 +1,214 @@
+// DESKTOP START
+@media screen and (min-width: 450px) {
+
+  .parallax {
+    background-image: url("../assets/contactdark.jpg");
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    // background-size:contain;
+    background-attachment: fixed;
+    background-size: cover;
+    display:block;
+  }
+
+  .laptop{
+  img{
+    position: fixed;
+    background-attachment: fixed;
+    // transform: translate(190%,70%);
+    left:35%;
+    top:44%;
+    border:none;
+    outline:none;
+  }
+  img:hover
+    {
+      // box-shadow: 0 0 10px #000;
+    }
+  }
+  .telephone{
+  img{
+    position: fixed;
+    left:52%;
+    top:53%;
+    // transform: translate(600%,215%);
+  }
+  img:hover
+    {
+      // box-shadow: 0 0 10px #000;
+    }
+  }
+
+  .globe{
+  img{
+    position: fixed;
+    left:10%;
+    top:62%;
+    // transform: translate(210%,200%);
+  }
+  img:hover
+    {
+      // box-shadow: 0 0 10px #000;
+    }
+  }
+
+  .git{
+  img{
+    position: fixed;
+    transform: translate(620%,10%);
+  }
+  img:hover
+    {
+      // box-shadow: 0 0 10px #000;
+    }
+  }
+  .linkedin{
+  img{
+    position: fixed;
+    transform: translate(750%,10%);
+  }
+  img:hover
+    {
+      // box-shadow: 0 0 10px #000;
+    }
+  }
+  .FB{
+  img{
+    position: fixed;
+    transform: translate(1450%,10%);
+  }
+  img:hover
+    {
+      // box-shadow: 0 0 10px #000;
+    }
+  }
+  .insta{
+  img{
+    position: fixed;
+    transform: translate(1580%,10%);
+  }
+  img:hover
+    {
+      // box-shadow: 0 0 10px #000;
+    }
+  }
+  .Minsta{
+    display: none;
+  }
+  .Mgit{
+    display: none;
+  }
+  .Mlink{
+    display: none;
+  }
+  .MFB{
+    display: none;
+  }
+  .MGMAP{
+    display: none;
+  }
+  .Mtele{
+    display: none;
+  }
+}
+// DESKTOP END
+
+
+// MOBILE START
+@media screen and (max-width: 451px) {
+
+.laptop{
+  display: none;
+}
+.telephone{
+  display: none;
+}
+.globe{
+  display: none;
+}
+.git{
+  display: none;
+}
+.insta{
+  display: none;
+}
+.linkedin{
+  display: none;
+}
+.FB{
+  display: none;
+}
+.mobbg {
+  background-image: url("../assets/contactmob.jpg");
+  min-height:900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+  .Mgit{
+    img{
+      position: fixed;
+      transform: translate(70%,150%);
+    }
+    img:hover
+      {
+        box-shadow: 0 0 10px #000;
+      }
+  }
+  .Mlink{
+    img{
+      position: fixed;
+      transform: translate(70%,270%);
+    }
+    img:hover
+      {
+        box-shadow: 0 0 10px #000;
+      }
+  }
+  .Mtele{
+    img{
+      position: fixed;
+      transform: translate(70%,300%);
+    }
+    img:hover
+      {
+        box-shadow: 0 0 10px #000;
+      }
+  }
+  .MFB{
+    img{
+      position: fixed;
+      transform: translate(680%,150%);
+    }
+    img:hover
+      {
+        box-shadow: 0 0 10px #000;
+      }
+  }
+  .Minsta{
+    img{
+      position: fixed;
+      transform: translate(680%,270%);
+    }
+    img:hover
+      {
+        box-shadow: 0 0 10px #000;
+      }
+  }
+  .MGMAP{
+    img{
+      position: fixed;
+      transform: translate(340%,230%);
+    }
+    img:hover
+      {
+        box-shadow: 0 0 10px #000;
+      }
+  }
+
+
+
+}
+// MOBILE END
